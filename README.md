@@ -388,6 +388,42 @@ In short:
 
 **Observe -> Classify -> Weight -> Choose -> Install -> Forward -> Measure**
 
+## Concepts and Common Questions
+
+This section is written for anyone reading the public repository who wants to understand the design choices quickly.
+
+### Why use SDN here?
+
+SDN separates the control logic from packet forwarding. That makes it possible to inspect a new flow centrally and choose a route based on the traffic type instead of relying only on local switch behavior.
+
+### Why classify traffic before routing?
+
+Different applications care about different things. A call cares more about delay, a file transfer cares more about throughput, and web traffic needs a balanced decision. Classification lets the routing logic use the right preference set.
+
+### Why use a Random Forest model?
+
+Random Forest works well for tabular features like packet size, timing, and ports. It is also easy to train, evaluate, and serialize for runtime use.
+
+### Why do the controllers share one brain?
+
+Ryu, POX, and raw OpenFlow use different APIs, but they should make the same decisions. Sharing the core logic prevents behavior drift between implementations.
+
+### Why is the topology small?
+
+The network is intentionally small so the routing, rerouting, and controller behavior are easy to observe and explain. The goal is clarity and repeatability, not large-scale production routing.
+
+### What happens when congestion appears?
+
+The controller estimates link load and can reroute lower-priority traffic to a better path. VoIP is kept stable because it has the highest priority.
+
+### What should a reader understand from the graphs?
+
+The graphs summarize throughput, delay, install time, CPU estimate, congestion handling, and delay by traffic type. They provide a quick comparison between controller profiles and traffic behavior.
+
+### What is the main limitation?
+
+The classifier is trained on synthetic data, and link utilization is estimated rather than polled from real switches. That makes the project ideal for demonstrating the design, but not a substitute for production traffic analysis.
+
 ## Limitations
 
 This is a working project, but it still has limits:
