@@ -1,6 +1,8 @@
 # AI-Assisted SDN Traffic Routing Simulation
 
-This project is a complete software-defined networking simulation that does more than send every flow through one shortest path. It observes traffic, classifies the flow type with a Random Forest model, and then chooses a route based on the needs of that traffic.
+This project is a complete software-defined networking simulation that classifies network traffic and routes it according to Quality of Service needs instead of sending every flow through one shortest path.
+
+In practical terms, the controller looks at a new flow, identifies whether it behaves like VoIP, video, file transfer, or web traffic, and then installs OpenFlow rules on the best path for that traffic type.
 
 The project is built so that you can understand the whole system from the README alone during an interview or viva:
 
@@ -328,6 +330,35 @@ The repository also contains verified WSL2 Mininet outputs:
 - `results/mininet_ryu_wsl_run.json`
 - `results/mininet_pox_wsl_run.json`
 - `results/mininet_raw_wsl_run.json`
+
+## Project Demo
+
+When you open this repository, the fastest way to understand the project is:
+
+1. Look at the visual results below.
+2. Read the one-sentence summary and architecture.
+3. Skim the traffic classes and routing weights.
+4. Check the controller implementations and main files.
+
+That gives you the complete story of the project without needing to jump into the source immediately.
+
+### Demo Flow
+
+```mermaid
+flowchart LR
+    A["Open README"] --> B["See result graphs"]
+    B --> C["Understand traffic classes"]
+    C --> D["Read routing and controller design"]
+    D --> E["Explain the project in an interview"]
+```
+
+### Demo Talking Points
+
+- This is not just shortest-path routing.
+- Traffic is classified before routing decisions are made.
+- The same shared brain powers Ryu, POX, and raw OpenFlow.
+- The project includes both synthetic and Mininet-based evaluation.
+- The README is structured so the full system can be understood from top to bottom.
 
 ## Visual Results
 
