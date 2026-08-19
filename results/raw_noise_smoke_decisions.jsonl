@@ -1,0 +1,256 @@
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.2", 0, 0, 1], "traffic_type": "voip", "path": ["s1", "s2"], "install_seconds": 0.07929664299990691, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2"], "install_seconds": 0.0643992000000253, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.1", 0, 0, 1], "traffic_type": "voip", "path": ["s2", "s1"], "install_seconds": 0.06323306999991019, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.3", 0, 0, 1], "traffic_type": "voip", "path": ["s1", "s2", "s3"], "install_seconds": 0.0599166450000439, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3"], "install_seconds": 0.054511435999984315, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3"], "install_seconds": 0.04654301499999747, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.1", 0, 0, 1], "traffic_type": "voip", "path": ["s3", "s2", "s1"], "install_seconds": 0.04624709899997015, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 0, 0, 1], "traffic_type": "voip", "path": ["s1", "s4"], "install_seconds": 0.04359025999997357, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s4"], "install_seconds": 0.04857286699996166, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.1", 0, 0, 1], "traffic_type": "voip", "path": ["s4", "s1"], "install_seconds": 0.05368946299995514, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.5", 0, 0, 1], "traffic_type": "voip", "path": ["s1", "s2", "s5"], "install_seconds": 0.04727185499996267, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.5", 0, 0, 1], "traffic_type": "voip", "path": ["s1", "s2", "s5"], "install_seconds": 0.05875603100002991, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s5"], "install_seconds": 0.053806348000080106, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.1", 0, 0, 1], "traffic_type": "voip", "path": ["s5", "s2", "s1"], "install_seconds": 0.047637973999940186, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "voip", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.046123554000018885, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.050668769999902, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.056413754999994126, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.06416858699992645, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 0, 0, 1], "traffic_type": "voip", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.05259291499999108, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1"], "install_seconds": 0.054599016999986816, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1"], "install_seconds": 0.0484724919999735, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.3", 0, 0, 1], "traffic_type": "voip", "path": ["s2", "s3"], "install_seconds": 0.05605583899989597, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s3"], "install_seconds": 0.06006237399992642, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.2", 0, 0, 1], "traffic_type": "voip", "path": ["s3", "s2"], "install_seconds": 0.05303878400002304, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.4", 0, 0, 1], "traffic_type": "voip", "path": ["s2", "s3", "s4"], "install_seconds": 0.05515033799997582, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s3", "s4"], "install_seconds": 0.049435808999987785, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s3", "s4"], "install_seconds": 0.07089378099999522, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.2", 0, 0, 1], "traffic_type": "voip", "path": ["s4", "s3", "s2"], "install_seconds": 0.061162109999941094, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "voip", "path": ["s2", "s5"], "install_seconds": 0.04381064900007914, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.03946910399997705, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 0, 0, 1], "traffic_type": "voip", "path": ["s5", "s2"], "install_seconds": 0.0587167319999935, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.6", 0, 0, 1], "traffic_type": "voip", "path": ["s2", "s3", "s6"], "install_seconds": 0.04567891499993948, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s3", "s6"], "install_seconds": 0.05721370199989906, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s3", "s6"], "install_seconds": 0.06356580900001063, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.2", 0, 0, 1], "traffic_type": "voip", "path": ["s6", "s3", "s2"], "install_seconds": 0.060589214000060565, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s2", "s1"], "install_seconds": 0.09947565699997085, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s2", "s1"], "install_seconds": 0.0624028229999567, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s2", "s1"], "install_seconds": 0.0555905089998987, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s2"], "install_seconds": 0.04412514199998441, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s2"], "install_seconds": 0.041435169999999744, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.4", 0, 0, 1], "traffic_type": "voip", "path": ["s3", "s4"], "install_seconds": 0.04955303899998853, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s4"], "install_seconds": 0.057345799000017905, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.3", 0, 0, 1], "traffic_type": "voip", "path": ["s4", "s3"], "install_seconds": 0.04187681500002327, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.5", 0, 0, 1], "traffic_type": "voip", "path": ["s3", "s2", "s5"], "install_seconds": 0.05018880900001932, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s2", "s5"], "install_seconds": 0.061131466000006185, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s2", "s5"], "install_seconds": 0.05632499999990159, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.3", 0, 0, 1], "traffic_type": "voip", "path": ["s5", "s2", "s3"], "install_seconds": 0.05969344599998294, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.6", 0, 0, 1], "traffic_type": "voip", "path": ["s3", "s6"], "install_seconds": 0.04715816800000994, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s6"], "install_seconds": 0.051512231999936375, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.3", 0, 0, 1], "traffic_type": "voip", "path": ["s6", "s3"], "install_seconds": 0.060275434999994104, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s1"], "install_seconds": 0.061987850000036815, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s1"], "install_seconds": 0.06084347000000889, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s2"], "install_seconds": 0.04771473399989645, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s2"], "install_seconds": 0.04680378999989898, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s2"], "install_seconds": 0.04737471299995377, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3"], "install_seconds": 0.07165435399997477, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3"], "install_seconds": 0.06223037300003398, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.5", 0, 0, 1], "traffic_type": "voip", "path": ["s4", "s5"], "install_seconds": 0.05478358699997443, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s5"], "install_seconds": 0.04529481899999155, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.4", 0, 0, 1], "traffic_type": "voip", "path": ["s5", "s4"], "install_seconds": 0.051170447999993485, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.6", 0, 0, 1], "traffic_type": "voip", "path": ["s4", "s3", "s6"], "install_seconds": 0.058136950000061915, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s6"], "install_seconds": 0.0630209209999748, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s6"], "install_seconds": 0.062164809000023524, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.4", 0, 0, 1], "traffic_type": "voip", "path": ["s6", "s3", "s4"], "install_seconds": 0.06150609799999529, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s2", "s1"], "install_seconds": 0.0855321469999808, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s2", "s1"], "install_seconds": 0.06546802599996226, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s2", "s1"], "install_seconds": 0.05530442999997831, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.06710728000007293, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.08112225399997897, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s2", "s3"], "install_seconds": 0.07200533599996106, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s2", "s3"], "install_seconds": 0.10065475999999762, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s2", "s3"], "install_seconds": 0.08569432199999483, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s4"], "install_seconds": 0.06764155799999116, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s4"], "install_seconds": 0.046204113000044345, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.6", 0, 0, 1], "traffic_type": "voip", "path": ["s5", "s6"], "install_seconds": 0.05632257199999913, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s6"], "install_seconds": 0.042286758000045666, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.5", 0, 0, 1], "traffic_type": "voip", "path": ["s6", "s5"], "install_seconds": 0.056427732999964064, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.06118672799993874, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.04444986600003631, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.05701743700001316, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.046496288999946955, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s2"], "install_seconds": 0.058206882000035876, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s2"], "install_seconds": 0.06821128399997178, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s2"], "install_seconds": 0.05441874600001029, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3"], "install_seconds": 0.042870444000072894, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3"], "install_seconds": 0.04236295099997278, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s4"], "install_seconds": 0.04807962799998222, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s4"], "install_seconds": 0.0534942140000112, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s4"], "install_seconds": 0.060282284999971125, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s5"], "install_seconds": 0.046470393000049626, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s5"], "install_seconds": 0.05444513600002665, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 45800, 5060, 17], "traffic_type": "voip", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.09323845900007655, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.12383307000004606, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.4", 59796, 8081, 6], "traffic_type": "voip", "path": ["s3", "s4"], "install_seconds": 0.12474756799997522, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.1", 46070, 8080, 6], "traffic_type": "voip", "path": ["s4", "s1"], "install_seconds": 0.12183100699996885, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 45800, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.12982152799997948, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.13884800599998925, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.3", 8081, 59796, 6], "traffic_type": "voip", "path": ["s4", "s3"], "install_seconds": 0.11351477100004104, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 45800, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.11821445299995048, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.12762320599995292, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 45800, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.0730166130000498, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.07018107300007159, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 45800, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.07259932700003446, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.0740929060000326, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 45800, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.0776814009999498, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.0899057049999783, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 45800, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.06816523899999538, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.06538904499996079, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 45800, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.0776373149999472, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.08775100799994107, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 45800, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.052234931999919354, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.059390821999954824, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 45800, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.08597028600001977, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.06408225600000605, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 8080, 46070, 6], "traffic_type": "voip", "path": ["s1", "s4"], "install_seconds": 0.08689841400007481, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.10070063800003481, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.06179668800007221, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.052134757999965586, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.04900426699998661, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05525798900009704, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05700461100002485, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05314818900001228, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05863422199990964, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.054745711999999, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.060596885999984806, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.0615850589999809, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05761822299996311, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.049255431000005956, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05269535499996891, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.04735893899999155, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.059016258999918136, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.049625725000055354, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.0563555929999211, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.0579144929999984, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.06993066699999417, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.04792354799997156, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05998374799992234, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05809305499997208, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05898950799996783, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.06489386199996261, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.06500212999992527, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05713436599990018, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.047156544000017675, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.042557654999995975, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.053811687000006714, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.04192650799996045, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.07608230699997875, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.1", 55670, 8080, 6], "traffic_type": "voip", "path": ["s4", "s1"], "install_seconds": 0.08709330400006365, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.058120762000044124, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 8080, 55670, 6], "traffic_type": "voip", "path": ["s1", "s4"], "install_seconds": 0.0636091269999497, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.07768369699999766, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05224892000001091, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.056888807000063935, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.049870185999907335, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05789049400004842, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.04835031200002504, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.0647764749999169, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05694096100000934, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05861092500003906, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.052461364999999205, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.04757666400007565, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05260837499997706, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.043229795000002014, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05151820300000054, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.06495479299996987, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.08379795500002274, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.055770246999941264, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.06103863900000306, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.04948221500001182, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05416767400004119, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05826709899997695, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.0590431109999372, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.059844117000011465, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.1", 55680, 8080, 6], "traffic_type": "voip", "path": ["s4", "s1"], "install_seconds": 0.08123045100001036, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.08056849100000818, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05006448500000715, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 8080, 55680, 6], "traffic_type": "voip", "path": ["s1", "s4"], "install_seconds": 0.07692435000001296, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.0811632870000949, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.04554711599996608, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.04364347599994289, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.052681529999972554, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.050044628000023295, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.052560883000069225, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.054889220999939425, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.05409367199990811, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.04898008800000753, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 57765, 17], "traffic_type": "voip", "path": ["s5", "s2"], "install_seconds": 0.06672053299996605, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 45800, 17], "traffic_type": "voip", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.11026649400002952, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.11778681400005553, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 57765, 17], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.07301163399995403, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.11799287799999547, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 57765, 17], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.10739506200002324, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 45800, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.12481771300008404, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.07872856200003753, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 57765, 17], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.11558352500003366, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 45800, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.13441769500002465, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.11094778300002872, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.11865251400001853, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 57765, 17], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.09811792199991487, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 45800, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.1190983829999368, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.11810732999992979, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.11638274899996759, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 57765, 17], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.1184149250000246, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 45800, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.09190450599999167, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.12816496700008884, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.15767551100009314, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 57765, 17], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.14177148900000702, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 45800, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.1513753279999719, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.1271234910000203, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.12880926499997258, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 57765, 17], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.14790196700005254, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 45800, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.1340922680000176, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 57765, 5004, 17], "traffic_type": "video", "path": ["s2", "s5"], "install_seconds": 0.12109323099991798, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 57765, 17], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.11383709200003977, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.15424421299996993, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 45800, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.11727555300001313, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.10825760000000173, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.11017435700000533, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 45800, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.10142790299994431, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.054570239999975456, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.08231560499996249, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.08402265500001249, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06536901799995576, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.08439050499998757, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06965510899999572, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.07533792000003814, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.055749724000065726, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.08529074900002342, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.09839001499994993, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.09912323799994738, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.11863816600009613, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.1296132290000287, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.12806125700001303, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 38078, 5001, 6], "traffic_type": "voip", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.09731655600000977, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.16306930700000066, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.15345675900005062, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.14977556600001662, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.11521030300002622, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.1464234000000033, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5001, 38078, 6], "traffic_type": "voip", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.16221069899995655, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.13518877599994994, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.11402519099999608, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.11783873199999562, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.0757579920000353, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5001, 38078, 6], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.1523141029999806, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.12452000499990845, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.14209180900002139, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.14598641999998563, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.15177787000004628, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.129265485000019, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 38086, 5001, 6], "traffic_type": "voip", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.13990134200003013, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.06517537500008075, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.076001462000022, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 38086, 5001, 6], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.07663892899995517, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.05683752499999173, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5001, 38086, 6], "traffic_type": "voip", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.06275313100002222, "rerouted": false}

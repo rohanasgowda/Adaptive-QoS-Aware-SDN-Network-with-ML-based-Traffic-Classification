@@ -1,0 +1,89 @@
+{
+  "accuracy": 0.9808333333333333,
+  "classification_report": {
+    "file": {
+      "precision": 0.9966442953020134,
+      "recall": 0.99,
+      "f1-score": 0.9933110367892977,
+      "support": 300.0
+    },
+    "video": {
+      "precision": 0.97,
+      "recall": 0.97,
+      "f1-score": 0.97,
+      "support": 300.0
+    },
+    "voip": {
+      "precision": 0.9933110367892977,
+      "recall": 0.99,
+      "f1-score": 0.991652754590985,
+      "support": 300.0
+    },
+    "web": {
+      "precision": 0.9636963696369637,
+      "recall": 0.9733333333333334,
+      "f1-score": 0.9684908789386402,
+      "support": 300.0
+    },
+    "accuracy": 0.9808333333333333,
+    "macro avg": {
+      "precision": 0.9809129254320686,
+      "recall": 0.9808333333333334,
+      "f1-score": 0.9808636675797306,
+      "support": 1200.0
+    },
+    "weighted avg": {
+      "precision": 0.9809129254320688,
+      "recall": 0.9808333333333333,
+      "f1-score": 0.9808636675797308,
+      "support": 1200.0
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "file",
+      "video",
+      "voip",
+      "web"
+    ],
+    "values": [
+      [
+        297,
+        3,
+        0,
+        0
+      ],
+      [
+        1,
+        291,
+        0,
+        8
+      ],
+      [
+        0,
+        0,
+        297,
+        3
+      ],
+      [
+        0,
+        6,
+        2,
+        292
+      ]
+    ]
+  },
+  "features": [
+    "packet_size",
+    "interarrival_ms",
+    "src_port",
+    "dst_port",
+    "service_port"
+  ],
+  "training_noise": {
+    "shared_port_probability": 0.35,
+    "packet_size_jitter": 0.12,
+    "interarrival_jitter": 0.35,
+    "burst_probability": 0.15
+  }
+}

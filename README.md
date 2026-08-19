@@ -1,0 +1,144 @@
+# AI-Assisted SDN Traffic Routing Simulation
+
+This project simulates a software-defined network that watches traffic, classifies each flow with a Random Forest model, and routes the flow according to its needs instead of using one shortest path for everything.
+
+It includes:
+
+- A 6-switch, 6-host Mininet topology with multiple paths.
+- Four traffic classes: VoIP, video streaming, file download, and web browsing.
+- A Random Forest classifier trained on packet size, interarrival time, and port features.
+- Three SDN controller implementations: Ryu, POX, and a raw OpenFlow 1.0 socket controller.
+- Weighted path routing based on delay, bandwidth, and congestion.
+- Automatic lower-priority rerouting when links become congested.
+- A comparison runner that produces CSV, JSON, and graph outputs.
+
+## Quick Run Without Mininet
+
+This path works on a normal Python machine and exercises the AI, routing, congestion, and graphing logic.
+
+```powershell
+python -m pip install -r requirements.txt
+python -m ai.train_model
+python -m experiments.run_comparison --events 240 --output-dir results
+```
+
+On Linux/macOS:
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 -m ai.train_model
+python3 -m experiments.run_comparison --events 240 --output-dir results
+```
+
+Outputs are written to `results/`:
+
+- `comparison_raw.csv`
+- `comparison_summary.csv`
+- `comparison_summary.json`
+- `throughput_mbps.png`
+- `delay_ms.png`
+- `install_ms.png`
+- `cpu_percent.png`
+- `congestion_handling_score.png`
+- `delay_by_traffic_type.png`
+
+## Run With Mininet
+
+Mininet is Linux-oriented. On Windows, use WSL2 with a Linux VM that supports Mininet, or a Mininet VM.
+
+Install system tools on Ubuntu:
+
+```bash
+sudo apt update
+sudo apt install -y mininet openvswitch-switch iperf python3-pip
+python3 -m pip install -r requirements-mininet.txt
+```
+
+Train the classifier:
+
+```bash
+python3 -m ai.train_model --regenerate-data
+```
+
+Training data includes realistic observation noise by default: packet-size
+jitter, timing jitter, burst outliers, and shared encrypted/web ports. The
+Mininet topology also adds per-link delay jitter through `tc netem`.
+
+Start one controller.
+
+Ryu:
+
+```bash
+ryu-manager --ofp-tcp-listen-port 6633 controllers/ryu_ai_controller.py
+```
+
+POX:
+
+```bash
+PYTHONPATH="$PWD:$PYTHONPATH" /path/to/pox/pox.py controllers.pox_ai_controller
+```
+
+If POX is not installed, clone it outside the project and copy the component into POX's `ext/` folder:
+
+```bash
+git clone --depth 1 https://github.com/noxrepo/pox.git ~/pox_tmp
+cp controllers/pox_ai_controller.py ~/pox_tmp/ext/pox_ai_controller.py
+PYTHONPATH="$PWD:$HOME/pox_tmp:$PYTHONPATH" python3 ~/pox_tmp/pox.py pox_ai_controller
+```
+
+Raw controller:
+
+```bash
+python3 -m controllers.raw_openflow_controller --port 6633
+```
+
+In another terminal, run the topology and traffic:
+
+```bash
+sudo env PYTHONPATH="$PWD" python3 -m topologies.run_mininet_experiment \
+  --controller-ip 127.0.0.1 \
+  --controller-port 6633 \
+  --profile mixed \
+  --duration 30 \
+  --output results/mininet_run.json
+```
+
+This workspace has also been verified in WSL2 with Mininet. The real run outputs are:
+
+- `results/mininet_ryu_wsl_run.json`
+- `results/mininet_pox_wsl_run.json`
+- `results/mininet_raw_wsl_run.json`
+
+## Useful Commands
+
+Inspect how different traffic types choose paths:
+
+```bash
+python -m experiments.inspect_path_choices
+```
+
+Generate labelled training data only:
+
+```bash
+python -m ai.generate_training_data --output data/training_flows.csv
+```
+
+Show the Mininet traffic commands without running them:
+
+```bash
+python -m traffic.mininet_traffic_driver --profile mixed --dry-run
+```
+
+## Main Files
+
+- `common/topology.py`: host, switch, link, and port map.
+- `common/routing.py`: traffic-aware weighted shortest path and congestion logic.
+- `common/controller_logic.py`: shared controller brain used by all three controllers.
+- `ai/train_model.py`: Random Forest training.
+- `controllers/ryu_ai_controller.py`: Ryu controller.
+- `controllers/pox_ai_controller.py`: POX controller.
+- `controllers/raw_openflow_controller.py`: raw OpenFlow socket controller.
+- `topologies/six_switch_topology.py`: Mininet topology.
+- `topologies/run_mininet_experiment.py`: Mininet experiment launcher.
+- `experiments/run_comparison.py`: synthetic comparison and graph generation.
+- `docs/TECHNICAL_DOCUMENT.md`: full project explanation.

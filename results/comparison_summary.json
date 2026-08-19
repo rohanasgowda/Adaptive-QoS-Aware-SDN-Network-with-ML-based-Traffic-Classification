@@ -1,0 +1,35 @@
+[
+  {
+    "controller": "pox",
+    "throughput_mbps": 2.8133874999999997,
+    "delay_ms": 16.778045833333334,
+    "install_ms": 39.34224583333333,
+    "cpu_percent": 18.532995833333334,
+    "reroutes": 27,
+    "congestion_events": 112,
+    "handled_events": 27,
+    "congestion_handling_score": 0.241
+  },
+  {
+    "controller": "raw",
+    "throughput_mbps": 3.1156083333333333,
+    "delay_ms": 14.830245833333333,
+    "install_ms": 32.148675,
+    "cpu_percent": 13.557820833333333,
+    "reroutes": 16,
+    "congestion_events": 110,
+    "handled_events": 16,
+    "congestion_handling_score": 0.145
+  },
+  {
+    "controller": "ryu",
+    "throughput_mbps": 3.175391666666667,
+    "delay_ms": 14.083895833333335,
+    "install_ms": 30.986329166666668,
+    "cpu_percent": 22.512808333333332,
+    "reroutes": 21,
+    "congestion_events": 94,
+    "handled_events": 21,
+    "congestion_handling_score": 0.223
+  }
+]

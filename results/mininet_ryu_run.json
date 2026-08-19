@@ -1,0 +1,13 @@
+{
+  "controller": "127.0.0.1:6633",
+  "profile": "mixed",
+  "duration_s": 30,
+  "pingall_loss_percent": 0.0,
+  "pingall_seconds": 3.816974625999997,
+  "traffic_seconds": 37.60144584500001,
+  "iperf_h1_h6": [
+    "18.9 Mbits/sec",
+    "18.8 Mbits/sec"
+  ],
+  "iperf_seconds": 6.934138728000008
+}

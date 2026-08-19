@@ -1,0 +1,318 @@
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.2", 0, 0, 1], "traffic_type": "file", "path": ["s1", "s2"], "install_seconds": 0.09681167099995491, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2"], "install_seconds": 0.06031777100002955, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.1", 0, 0, 1], "traffic_type": "file", "path": ["s2", "s3", "s4", "s1"], "install_seconds": 0.06304909400000724, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.3", 0, 0, 1], "traffic_type": "file", "path": ["s1", "s2", "s3"], "install_seconds": 0.04790253900000607, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 0, 0, 1], "traffic_type": "file", "path": ["s1", "s2", "s5", "s4"], "install_seconds": 0.07495260099994994, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s3", "s4", "s1"], "install_seconds": 0.06631906100000151, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.5", 0, 0, 1], "traffic_type": "file", "path": ["s1", "s6", "s5"], "install_seconds": 0.06068850399998382, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.3", 0, 0, 1], "traffic_type": "file", "path": ["s2", "s3"], "install_seconds": 0.06543798399997058, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "file", "path": ["s1", "s4", "s3", "s6"], "install_seconds": 0.04895863699999836, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.4", 0, 0, 1], "traffic_type": "file", "path": ["s2", "s5", "s4"], "install_seconds": 0.07790146100001039, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.2", 0, 0, 1], "traffic_type": "file", "path": ["s1", "s2"], "install_seconds": 0.08011258400000543, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2"], "install_seconds": 0.06095452799996792, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.1", 0, 0, 1], "traffic_type": "file", "path": ["s2", "s3", "s4", "s1"], "install_seconds": 0.0665473369999745, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.3", 0, 0, 1], "traffic_type": "file", "path": ["s1", "s2", "s3"], "install_seconds": 0.05836708499998622, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3"], "install_seconds": 0.06614375200001632, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.2", 0, 0, 1], "traffic_type": "file", "path": ["s1", "s2"], "install_seconds": 0.0649746750000304, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2"], "install_seconds": 0.05171847000008256, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.1", 0, 0, 1], "traffic_type": "file", "path": ["s2", "s3", "s4", "s1"], "install_seconds": 0.05897388500000034, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.3", 0, 0, 1], "traffic_type": "file", "path": ["s1", "s2", "s3"], "install_seconds": 0.057720015999962015, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3"], "install_seconds": 0.06277222599999277, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s2", "s3"], "install_seconds": 0.05983239499994397, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.1", 0, 0, 1], "traffic_type": "file", "path": ["s3", "s6", "s5", "s2", "s1"], "install_seconds": 0.0559670019999885, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 0, 0, 1], "traffic_type": "file", "path": ["s1", "s2", "s5", "s4"], "install_seconds": 0.05876890899992304, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6", "s3", "s4"], "install_seconds": 0.05600410399995326, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6", "s3", "s4"], "install_seconds": 0.04617157299992414, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6", "s3", "s4"], "install_seconds": 0.05805429700001241, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6", "s3", "s4"], "install_seconds": 0.05465653199996723, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6", "s3", "s4"], "install_seconds": 0.04471344599994609, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.1", 0, 0, 1], "traffic_type": "file", "path": ["s4", "s3", "s2", "s1"], "install_seconds": 0.054867027000000235, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.5", 0, 0, 1], "traffic_type": "file", "path": ["s1", "s4", "s5"], "install_seconds": 0.060130608999998, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6", "s5"], "install_seconds": 0.0617163959999516, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6", "s5"], "install_seconds": 0.06095485000003009, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6", "s5"], "install_seconds": 0.06413833300007354, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6", "s5"], "install_seconds": 0.06656329899999491, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.1", 0, 0, 1], "traffic_type": "file", "path": ["s5", "s2", "s1"], "install_seconds": 0.06410590000007232, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "file", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.06798968200007494, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.05755736500009334, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.05440354999996089, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.06241274599994995, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 0, 0, 1], "traffic_type": "file", "path": ["s6", "s1"], "install_seconds": 0.057570225999938884, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s3", "s4", "s1"], "install_seconds": 0.06344971099997565, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s3", "s4", "s1"], "install_seconds": 0.05196687800003019, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s3", "s4", "s1"], "install_seconds": 0.05901868299997659, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s3", "s4", "s1"], "install_seconds": 0.06091430800006492, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.3", 0, 0, 1], "traffic_type": "file", "path": ["s2", "s3"], "install_seconds": 0.05668597600003977, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s5", "s6", "s3"], "install_seconds": 0.058114438999950835, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.2", 0, 0, 1], "traffic_type": "file", "path": ["s3", "s4", "s1", "s2"], "install_seconds": 0.059318051999980526, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.4", 0, 0, 1], "traffic_type": "file", "path": ["s2", "s5", "s4"], "install_seconds": 0.055050201999961246, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s3", "s6", "s5", "s4"], "install_seconds": 0.053263784000023406, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s3", "s6", "s5", "s4"], "install_seconds": 0.05760447700004079, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.2", 0, 0, 1], "traffic_type": "file", "path": ["s4", "s3", "s6", "s5", "s2"], "install_seconds": 0.06110252600001331, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "file", "path": ["s2", "s5"], "install_seconds": 0.10233308800002305, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.06197693900003287, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 0, 0, 1], "traffic_type": "file", "path": ["s5", "s2"], "install_seconds": 0.0588771050000787, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.6", 0, 0, 1], "traffic_type": "file", "path": ["s2", "s3", "s6"], "install_seconds": 0.0712436549999893, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s6"], "install_seconds": 0.06206036399998993, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s6"], "install_seconds": 0.05438365999998496, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s6"], "install_seconds": 0.05586931300001652, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s6"], "install_seconds": 0.07182060499997078, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.2", 0, 0, 1], "traffic_type": "file", "path": ["s6", "s3", "s2"], "install_seconds": 0.0608350379999365, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s4", "s1"], "install_seconds": 0.06145852999998169, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s4", "s1"], "install_seconds": 0.059324939000021004, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s4", "s1"], "install_seconds": 0.055479672999922514, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s4", "s1", "s2"], "install_seconds": 0.05618138900001668, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s4", "s1", "s2"], "install_seconds": 0.04262398599996686, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s4", "s1", "s2"], "install_seconds": 0.04579191200002697, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s4", "s1", "s2"], "install_seconds": 0.044892391000075804, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.4", 0, 0, 1], "traffic_type": "file", "path": ["s3", "s4"], "install_seconds": 0.048161238000034245, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s2", "s1", "s4"], "install_seconds": 0.05585594100000435, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.3", 0, 0, 1], "traffic_type": "file", "path": ["s4", "s5", "s6", "s3"], "install_seconds": 0.05894713899999715, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.5", 0, 0, 1], "traffic_type": "file", "path": ["s3", "s2", "s5"], "install_seconds": 0.06137703599995348, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s4", "s1", "s2", "s5"], "install_seconds": 0.06510392500001672, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s4", "s1", "s2", "s5"], "install_seconds": 0.06110805499997696, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.3", 0, 0, 1], "traffic_type": "file", "path": ["s5", "s4", "s1", "s2", "s3"], "install_seconds": 0.06708613699993293, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.6", 0, 0, 1], "traffic_type": "file", "path": ["s3", "s6"], "install_seconds": 0.05009212499999194, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s3", "s2", "s1", "s6"], "install_seconds": 0.048825287999989087, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.3", 0, 0, 1], "traffic_type": "file", "path": ["s6", "s3"], "install_seconds": 0.06407249400001547, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s2", "s1"], "install_seconds": 0.05843388400001004, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s2", "s1"], "install_seconds": 0.05906322499993166, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s2", "s1"], "install_seconds": 0.05562523800006147, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s2", "s1"], "install_seconds": 0.058918366000057176, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s6", "s5", "s2"], "install_seconds": 0.08513132699999915, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s6", "s5", "s2"], "install_seconds": 0.06053795800005446, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s6", "s5", "s2"], "install_seconds": 0.06698313799995503, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s6", "s5", "s2"], "install_seconds": 0.062141206999967835, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s6", "s5", "s2"], "install_seconds": 0.059917734999999084, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s5", "s6", "s3"], "install_seconds": 0.07145020999996632, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s5", "s6", "s3"], "install_seconds": 0.06639556199991148, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s5", "s6", "s3"], "install_seconds": 0.0673079550000466, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s5", "s6", "s3"], "install_seconds": 0.07227220099991882, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.5", 0, 0, 1], "traffic_type": "file", "path": ["s4", "s3", "s2", "s5"], "install_seconds": 0.0633289300000115, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s5"], "install_seconds": 0.05868794799994248, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s5"], "install_seconds": 0.06184949500004677, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s5"], "install_seconds": 0.06134656400001859, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.4", 0, 0, 1], "traffic_type": "file", "path": ["s5", "s4"], "install_seconds": 0.07070089800004098, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.6", 0, 0, 1], "traffic_type": "file", "path": ["s4", "s1", "s2", "s3", "s6"], "install_seconds": 0.059602949000009176, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s5", "s6"], "install_seconds": 0.057908558999997695, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s5", "s6"], "install_seconds": 0.05458573200007777, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s1", "s6"], "install_seconds": 0.05993805000002794, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s6"], "install_seconds": 0.05051463300003434, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s6"], "install_seconds": 0.06218912300005286, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s4", "s3", "s6"], "install_seconds": 0.061848978999933024, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.4", 0, 0, 1], "traffic_type": "file", "path": ["s6", "s3", "s4"], "install_seconds": 0.06383962899997186, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s2", "s1"], "install_seconds": 0.061206934000097135, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s2", "s1"], "install_seconds": 0.06437393799990332, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s2", "s1"], "install_seconds": 0.06154717799995524, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.06247868000002654, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.06133130499995332, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s4", "s1", "s2", "s3"], "install_seconds": 0.050244723999981034, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s4", "s1", "s2", "s3"], "install_seconds": 0.05624653699999271, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s4", "s1", "s2", "s3"], "install_seconds": 0.057447124000077565, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s4", "s1", "s2", "s3"], "install_seconds": 0.06006910999997217, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s4", "s1", "s2", "s3"], "install_seconds": 0.060524954000015896, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s4"], "install_seconds": 0.06079386099997919, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s4"], "install_seconds": 0.06197083299991846, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.6", 0, 0, 1], "traffic_type": "file", "path": ["s5", "s6"], "install_seconds": 0.06503762599993479, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s5", "s2", "s3", "s6"], "install_seconds": 0.06040590899999643, "rerouted": true}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.5", 0, 0, 1], "traffic_type": "file", "path": ["s6", "s3", "s2", "s5"], "install_seconds": 0.07780125900001167, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s1"], "install_seconds": 0.06295176399999036, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s1"], "install_seconds": 0.061077982000028896, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s2"], "install_seconds": 0.06335799800001496, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s2"], "install_seconds": 0.06275474400001713, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.2", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s2"], "install_seconds": 0.06150464900008501, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3"], "install_seconds": 0.07448866499998985, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.3", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3"], "install_seconds": 0.06124722299989571, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s4"], "install_seconds": 0.06764947499993923, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s4"], "install_seconds": 0.07219213500002297, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.4", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s4"], "install_seconds": 0.06201013099996544, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s2", "s5"], "install_seconds": 0.05440066400001342, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s2", "s5"], "install_seconds": 0.047596915999974954, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s2", "s5"], "install_seconds": 0.05844788499996412, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s6", "s3", "s2", "s5"], "install_seconds": 0.05905889300004219, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 44484, 5060, 17], "traffic_type": "voip", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.12790877100007947, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "file", "path": ["s2", "s5"], "install_seconds": 0.1315435770000022, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.3", "10.0.0.4", 41388, 8081, 6], "traffic_type": "voip", "path": ["s3", "s4"], "install_seconds": 0.1866384280000375, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.1", 57296, 8080, 6], "traffic_type": "voip", "path": ["s4", "s1"], "install_seconds": 0.17706371299993862, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.1679053870000189, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.16358242100000098, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 44484, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.18822759400006817, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.3", 8081, 41388, 6], "traffic_type": "voip", "path": ["s4", "s3"], "install_seconds": 0.12786350300007143, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.13559877199998027, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 44484, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.1471577410000009, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.17730586300001505, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.09845750500005579, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.12750026899993827, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 44484, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.142102899000065, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.1179175459999442, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.12600708299999042, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 44484, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.13886698800001795, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.14629089300001397, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.11599607999994532, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 44484, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.09346150900000794, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06187097600002289, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 44484, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.09779639499993209, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.068202733000021, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 44484, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.09173286500003996, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.08937138800001776, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 44484, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.08146319100001165, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.11358669599997029, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 44484, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.07508154499998909, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.08014751999996861, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 44484, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.09102784499998506, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.10429499899998973, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 44484, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.1527615950000154, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.10327385399989453, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 44484, 5060, 17], "traffic_type": "web", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.10463475900007779, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.08768128300005174, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 8080, 57296, 6], "traffic_type": "voip", "path": ["s1", "s4"], "install_seconds": 0.08103905899997699, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.10343389899992417, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 8080, 57296, 6], "traffic_type": "web", "path": ["s1", "s4"], "install_seconds": 0.10980805799999871, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.10956273500005409, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.04815753900004438, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.052242008000007445, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05484985999999026, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05718237300004603, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.0647397049999654, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05984922499999357, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.054659642000046915, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06233823200000188, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06015953899998294, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05934628500006056, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05330778299992289, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.061665236000067125, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06928321400005188, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.061867384999914066, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05960999100000208, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05807452600004126, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05049304800002119, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.0520966540000245, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.059314900000003945, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.0488374000000249, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.051507725999954346, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06406027600007747, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06438606100005018, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06221492899999248, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.0612314840000181, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05943144900004427, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06341821399996661, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.08764948800001093, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.1", 57298, 8080, 6], "traffic_type": "voip", "path": ["s4", "s1"], "install_seconds": 0.10392961000002288, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.09347105799997735, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.1", 57298, 8080, 6], "traffic_type": "web", "path": ["s4", "s1"], "install_seconds": 0.09257590300001084, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.08515273299997261, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 8080, 57298, 6], "traffic_type": "voip", "path": ["s1", "s4"], "install_seconds": 0.079690649999975, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.07246121599996513, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06023235600002863, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05603645500002585, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.04436621699994703, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.053329108000070846, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05595183699995232, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06266765099996974, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.059316181999975015, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05961914199997409, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.054946797000070546, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.054744497999990926, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.0620701679999911, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.07108793800000512, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05392180299998017, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05644953199998781, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.07123428299996704, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06737943600001017, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05190039899991916, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05840484999998807, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06147896899994976, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05255756399992606, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.07019606799997291, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.1", 50286, 8080, 6], "traffic_type": "voip", "path": ["s4", "s1"], "install_seconds": 0.10005924400002186, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.07486726399997679, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06032206800000495, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 8080, 50286, 6], "traffic_type": "voip", "path": ["s1", "s4"], "install_seconds": 0.08963949399992543, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.09014467800000148, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.059397371999921234, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.059100963999981104, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05441333399994619, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05941760799998974, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.058199918000013895, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06130211300001065, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.062127434999979414, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05775780900000882, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.045524949000082415, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.056632595999985824, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05325452499994299, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05457798700001604, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.05614977000004728, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06228805399996418, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06556780400001117, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.07282797800007756, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.07259966800006623, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 54073, 5004, 17], "traffic_type": "web", "path": ["s2", "s5"], "install_seconds": 0.06206406000001152, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.4", "10.0.0.1", 50298, 8080, 6], "traffic_type": "voip", "path": ["s4", "s1"], "install_seconds": 0.06009520700001758, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.4", 8080, 50298, 6], "traffic_type": "voip", "path": ["s1", "s4"], "install_seconds": 0.04921898099996724, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 54073, 17], "traffic_type": "voip", "path": ["s5", "s2"], "install_seconds": 0.09307821699997021, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 44484, 17], "traffic_type": "voip", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.09758154899998317, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 54073, 17], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.11960282000006828, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.15840788900004554, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 44484, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.1636181790000819, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 44484, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.1476995990000205, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.14786402200002158, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 44484, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.11331551399996442, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 54073, 17], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.13130839099994773, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.1238746029999902, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.12717362400007914, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 44484, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.10783813599994119, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.10681002100000114, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 54073, 17], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.1197864410000875, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.12385258199992677, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.1249116449999974, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 54073, 17], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.13517337300004328, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 44484, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.18144907100008822, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.1373678810000456, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.13779242800001157, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 54073, 17], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.12486677099991539, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.15279719900001965, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 44484, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.1646838789999947, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.15293668200001775, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 54073, 17], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.1363014649999741, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 44484, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.15051209600005677, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.13838817099997414, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.14159255499998835, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 54073, 17], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.10706228399999418, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 44484, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.11413941900002555, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.14109314099994208, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.5", "10.0.0.2", 5004, 54073, 17], "traffic_type": "web", "path": ["s5", "s2"], "install_seconds": 0.14400577499998235, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 44484, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.12365705499996693, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.1459580459999188, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.1433760780000739, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.11980868799992095, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 44484, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.1755771730000788, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.13927960600005918, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.15846563399998104, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5060, 44484, 17], "traffic_type": "web", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.13104266699997424, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.16313053600003968, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.15151112099999864, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.12682401099993967, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.11754755000004025, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.13081080100005238, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.12729874499996185, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.1438857379999945, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.16421550300003673, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.10092969599998014, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.11873383399995419, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.13383409499999743, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.14420508199998494, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.14003898500004652, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.14037261400005718, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.17029081800001222, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.11533801399991717, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.10710672499999419, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.1385109330000205, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.11407380699995429, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.1384585559999323, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.10155993200010016, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 53714, 5001, 6], "traffic_type": "voip", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.10198079899998902, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.2", "10.0.0.5", 0, 0, 1], "traffic_type": "web", "path": ["s2", "s1", "s4", "s5"], "install_seconds": 0.096443905000001, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 0, 0, 1], "traffic_type": "web", "path": ["s1", "s6"], "install_seconds": 0.07079495699997551, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5001, 53714, 6], "traffic_type": "voip", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.07134185600000365, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.1", "10.0.0.6", 53722, 5001, 6], "traffic_type": "voip", "path": ["s1", "s2", "s3", "s6"], "install_seconds": 0.06886090999989847, "rerouted": false}
+{"controller": "raw", "flow": ["10.0.0.6", "10.0.0.1", 5001, 53722, 6], "traffic_type": "voip", "path": ["s6", "s3", "s2", "s1"], "install_seconds": 0.07831957500002318, "rerouted": false}
