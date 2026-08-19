@@ -4,7 +4,7 @@ This project is a complete software-defined networking simulation that classifie
 
 In practical terms, the controller looks at a new flow, identifies whether it behaves like VoIP, video, file transfer, or web traffic, and then installs OpenFlow rules on the best path for that traffic type.
 
-The project is built so that you can understand the whole system from the README alone during an interview or viva:
+The project is documented so that the main ideas are clear from the README alone:
 
 - what the project does,
 - how the network is laid out,
@@ -331,35 +331,6 @@ The repository also contains verified WSL2 Mininet outputs:
 - `results/mininet_pox_wsl_run.json`
 - `results/mininet_raw_wsl_run.json`
 
-## Project Demo
-
-When you open this repository, the fastest way to understand the project is:
-
-1. Look at the visual results below.
-2. Read the one-sentence summary and architecture.
-3. Skim the traffic classes and routing weights.
-4. Check the controller implementations and main files.
-
-That gives you the complete story of the project without needing to jump into the source immediately.
-
-### Demo Flow
-
-```mermaid
-flowchart LR
-    A["Open README"] --> B["See result graphs"]
-    B --> C["Understand traffic classes"]
-    C --> D["Read routing and controller design"]
-    D --> E["Explain the project in an interview"]
-```
-
-### Demo Talking Points
-
-- This is not just shortest-path routing.
-- Traffic is classified before routing decisions are made.
-- The same shared brain powers Ryu, POX, and raw OpenFlow.
-- The project includes both synthetic and Mininet-based evaluation.
-- The README is structured so the full system can be understood from top to bottom.
-
 ## Visual Results
 
 These diagrams are included directly in the README so the repository page shows the main results immediately.
@@ -397,7 +368,7 @@ These diagrams are included directly in the README so the repository page shows 
 - `traffic/mininet_traffic_driver.py`: starts and stops traffic in Mininet.
 - `traffic/web_bursts.py`: irregular web-request traffic generator.
 - `docs/TECHNICAL_DOCUMENT.md`: deeper technical explanation.
-- `PROJECT_A_TO_Z_GUIDE.md`: beginner-to-viva explanation of the full project.
+- `PROJECT_A_TO_Z_GUIDE.md`: complete project guide.
 
 ## How the Project Works End to End
 
@@ -416,20 +387,6 @@ The full flow is:
 In short:
 
 **Observe -> Classify -> Weight -> Choose -> Install -> Forward -> Measure**
-
-## What You Should Know for an Interview
-
-If someone asks you what this project is, a strong answer is:
-
-> This is an AI-assisted SDN traffic-aware routing project. It classifies flows into VoIP, video, file, or web traffic using a Random Forest model trained on flow features, then chooses a route based on delay, bandwidth, and congestion priorities. The same shared decision logic runs in Ryu, POX, and a raw OpenFlow controller, and the project includes both synthetic comparison experiments and real Mininet-based runs.
-
-If they ask deeper questions, be ready to explain:
-
-- why VoIP gets the highest priority,
-- why bandwidth matters more for file/video traffic,
-- why the model uses ports, packet size, and interarrival time,
-- why there are three controller implementations,
-- and why the same traffic can be routed differently depending on class.
 
 ## Limitations
 
