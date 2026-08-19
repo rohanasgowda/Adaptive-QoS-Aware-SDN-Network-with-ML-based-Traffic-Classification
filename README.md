@@ -55,6 +55,29 @@ The first packet of a new flow reaches a switch with no matching rule, so the sw
 
 The same shared decision logic is used by all three controller implementations.
 
+## System Design
+
+The project is organized around four main parts:
+
+| Part | Role |
+|---|---|
+| Mininet topology | Creates the virtual hosts, switches, and links |
+| AI classifier | Labels traffic using flow features |
+| Routing engine | Chooses the best path for that traffic class |
+| SDN controllers | Install and manage OpenFlow rules |
+
+The components work together like this:
+
+1. Mininet creates the network.
+2. A host starts sending packets.
+3. The switch sends unknown flows to the controller.
+4. The controller classifies the flow.
+5. The routing engine selects a path.
+6. The controller installs rules on the switches.
+7. The experiment scripts measure and visualize the outcome.
+
+The same design is implemented through three controller styles so the project can be compared across frameworks and protocol levels.
+
 ## What Is Included
 
 - A six-host, six-switch Mininet topology.
